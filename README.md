@@ -15,7 +15,7 @@ Manually, you can build using `nitrile build` command.
 Building options can be configured in `nitrile.yml` config file.
 
 #### Language server
-Dev container comes with a preinstalled language server [Eastwood](https://gitlab.com/top-software/eastwood). [Clean](https://marketplace.visualstudio.com/items?itemName=TOPSoftware.clean-vs-code) extension should be installed inside dev container in order for language server to work.
+Dev container comes with a preinstalled language server [Eastwood](https://gitlab.com/top-software/eastwood). Also a [Clean](https://marketplace.visualstudio.com/items?itemName=TOPSoftware.clean-vs-code) extension has to be installed inside dev container in order for language server to work.
 
 Mind that `Eastwood` requires you to list all source directories in `eastwood.yml` config file, including external libraries. So if you add more dependencies to your project make sure to specify correct path to the dependency's source code.
 
