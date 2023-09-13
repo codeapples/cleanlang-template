@@ -1,0 +1,41 @@
+format_version: 0.4.10
+name: cleanlang-template
+type: Application
+version: 0.1.0
+license: MIT
+
+dependencies:
+  base: ^2.0.0
+
+src:
+  - src
+
+clm_options:
+  fusion: GenericFusion
+
+package:
+  extra_files:
+    - CHANGELOG.md
+    - LICENSE
+    - README.md
+
+actions:
+  run:
+    script:
+      - nitrile build
+      - nitrile run
+
+build:
+  application:
+    script:
+      - clm:
+          main: main
+          target: bin/app
+          generate_descriptors: true
+          export_local_labels: true
+          strip: false
+
+tests:
+  compilation:
+    compilation: {}
+

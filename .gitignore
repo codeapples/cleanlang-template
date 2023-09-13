@@ -1,0 +1,8 @@
+*.pbc
+*.bc
+Clean\ System\ Files
+*-www
+*.prj
+itasks-*.tar.gz
+nitrile-packages
+bin

@@ -1,0 +1,4 @@
+compiler: cocl
+paths:
+  - src
+  - nitrile-packages/linux-x64/base-stdenv/lib

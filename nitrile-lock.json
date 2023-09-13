@@ -1,0 +1,68 @@
+{
+  "packages": {
+    "linux-x64": [
+      {
+        "name": "base",
+        "version": "2.0.0"
+      },
+      {
+        "name": "base-clm",
+        "version": "1.5.2"
+      },
+      {
+        "name": "base-code-generator",
+        "version": "2.2.0"
+      },
+      {
+        "name": "base-compiler",
+        "version": "2.0.1"
+      },
+      {
+        "name": "base-lib",
+        "version": "2.2.0"
+      },
+      {
+        "name": "base-rts",
+        "version": "2.1.1"
+      },
+      {
+        "name": "base-stdenv",
+        "version": "2.1.1"
+      }
+    ],
+    "windows-x64": [
+      {
+        "name": "base",
+        "version": "2.0.0"
+      },
+      {
+        "name": "base-clm",
+        "version": "1.5.2"
+      },
+      {
+        "name": "base-code-generator",
+        "version": "2.2.0"
+      },
+      {
+        "name": "base-compiler",
+        "version": "2.0.1"
+      },
+      {
+        "name": "base-lib",
+        "version": "2.2.0"
+      },
+      {
+        "name": "base-linker",
+        "version": "1.0.2"
+      },
+      {
+        "name": "base-rts",
+        "version": "2.1.1"
+      },
+      {
+        "name": "base-stdenv",
+        "version": "2.1.1"
+      }
+    ]
+  }
+}
