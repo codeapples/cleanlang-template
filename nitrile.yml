@@ -33,7 +33,6 @@ build:
           target: bin/app
           generate_descriptors: true
           export_local_labels: true
-          strip: false
 
 tests:
   compilation:
