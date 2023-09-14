@@ -8,7 +8,7 @@ This template uses a devcontainer which requires [Dev Containers](https://market
 Dependency management and building is done via `Nitrile` package manager. If you are unfamiliar with it you can find documentation [here](https://clean-and-itasks.gitlab.io/nitrile/).
 
 #### Building project
-Template comes with some preconfigured tasks, so you can use `Shift+Alt+B` to start a build task in vscode.
+Template comes with some preconfigured tasks, so you can use `Ctrl + Shift + B` to start a build task in vscode.
 
 Manually, you can build using `nitrile build` command.
 
